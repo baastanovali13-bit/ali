@@ -1,0 +1,80 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MY-PROJECT - Lesson 26</title>
+<style>
+  *{box-sizing:border-box;font-family:Arial,sans-serif;margin:0;padding:0}
+  body{background:#F6F7F9;padding:20px}
+  .container{max-width:800px;margin:0 auto}
+
+  /* Жашыл шапка */
+  .header{background:#0B7A43;color:#fff;padding:22px 28px;border-radius:18px;margin-bottom:20px}
+  .header h1{font-size:32px;letter-spacing:1px}
+  .header p{font-size:16px;margin-top:4px;opacity:.95}
+
+  /* Карточкалар */
+  .card{background:#fff;border:1.5px solid #E6E6E6;border-radius:14px;padding:20px;display:flex;gap:16px;align-items:flex-start;margin-bottom:16px}
+  .icon{width:55px;height:55px;min-width:55px;border-radius:12px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900;font-size:22px}
+  .orange{background:#FF9800}
+  .blue{background:#2196F3}
+  .purple{background:#9C27B0}
+  .pink{background:#E91E63}
+  .cyan{background:#00BCD4}
+  .green{background:#4CAF50}
+  .card h2{font-size:21px;margin-bottom:5px}
+  .card p{color:#666;font-size:15px}
+
+  /* Кара жак */
+  .footer{background:#111;color:#fff;padding:18px 22px;border-radius:14px;margin-top:4px}
+  .footer b{font-size:18px}
+  .footer p{color:#bbb;font-size:15px;margin-top:3px}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <h1>MY-PROJECT</h1>
+    <p>Lesson 26: Layout + UI-kit | Pages / Components / Layout</p>
+  </div>
+
+  <div class="card">
+    <div class="icon orange">S</div>
+    <div><h2>src/pages/</h2><p>Home / Tasks / Profile - ар бир баракча озунчо</p></div>
+  </div>
+
+  <div class="card">
+    <div class="icon blue">S</div>
+    <div><h2>src/components/ui/</h2><p>Button / Input / Card / Modal - UI-kit</p></div>
+  </div>
+
+  <div class="card">
+    <div class="icon purple">S</div>
+    <div><h2>src/components/</h2><p>Header / Sidebar / Footer - чон компоненттер</p></div>
+  </div>
+
+  <div class="card">
+    <div class="icon pink">S</div>
+    <div><h2>src/layout/</h2><p>MainLayout.jsx - Header + Sidebar + Content + Footer</p></div>
+  </div>
+
+  <div class="card">
+    <div class="icon cyan">S</div>
+    <div><h2>src/styles/</h2><p>variables.css / global.css - бирдиктуу тустор</p></div>
+  </div>
+
+  <div class="card">
+    <div class="icon green">S</div>
+    <div><h2>src/App.jsx</h2><p>Роутинг - кайсы баракча ачылат</p></div>
+  </div>
+
+  <div class="footer">
+    <b>Тренерге: UI-kit -&gt; components/ui папкасынын ичинде</b>
+    <p>Layout бардык баракчага бирдей колдонулат</p>
+  </div>
+
+</div>
+</body>
+</html>
